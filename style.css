@@ -52,7 +52,7 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #08335c;
+  background-color: #2196e3;
   text-align: center;
   position: fixed;
   top: 0;
@@ -76,4 +76,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
           transform: scale(0);
   transition: all 0.3s ease;
 }
-
+ 
+h1 {
+  text-align: center;
+}
