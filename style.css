@@ -12,7 +12,7 @@ body {
     height: 3.75rem;
     line-height: 3.75rem;
     width: 100%;
-    background: linear-gradient(45deg, #0d3b84, #84170d);
+    background: linear-gradient(45deg, #a4d1a4, #fs7a43);
     transition: all 0.5s ease;
 }
 
@@ -53,7 +53,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background: linear-gradient(135deg, #0d3b84, #84170d);
+    background: linear-gradient(135deg, #a4d1a4, #fs7a43);
     text-align: center;
     position: fixed;
     top: 0;
@@ -80,6 +80,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 .sticky-social-bar {
@@ -168,4 +169,7 @@ h1 {
 .sticky-social-bar .social-icon:hover>a {
     color: inherit;
     background-color: inherit;
+}
+body {
+  background-image: url("https://i.imgur.com/fl9Qwjh.png");
 }
